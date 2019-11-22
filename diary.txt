@@ -1,0 +1,22 @@
+Date    Start   Stop    Activity	Comments
+6 Sep   19:00   19:30   Read Spec	Read spec, make notes, understand functionality of subset 0       
+		19:30   20:00   coding		init, add functions
+11 Sep  9:15    10:55   coding      More or less done
+		16:15   17:50   coding      Started work on subset 1, Added functionality to commit 
+		20:20   22:40   coding      Working on rm
+12 Sep  11:00   12:00   coding      Debug multiple indexes, fix commitFiles helper, compare rm to 2041 legit
+13 Sep  11:00   11:30   testing	    Added small shell script to test init, add, commit and duplicate commit
+14 Sep  20:00   21:00   testing     Added improved shell scripts and multiple test cases.
+		22:00   00:00   coding      Fixed bug in commit (for removed files) - need to retest
+16 Sep	22:30	00:00	testing		Autotest Subset0 and Subset1 (until rm)
+						coding		minor code and error message fixes to ensure autotests pass and things work as expected, more test scripts to be added to my own testing.
+17 Sep	21:30	20:00	coding		Started implementing subset 2 - Branches
+18 Sep	16:00	18:00	coding		Fixing status - Autotests changed error messages
+						coding		Fixing rm options - Correct reading of arguments 
+		17:45	18:45	coding		Create error function to throw generic errors
+						coding		Fix add - Remove files from index if they are not in the working directory
+23 Sep	14:30	15:30	testing		Edit and add test cases.
+		19:45	21:15	debugging	Fixed bugs found during personal testing of commit -a and rm
+24 Sep	20:00	21:30	debugging	Fixed more bugs
+27 Sep	18:00	19:30	testing		Writing shell scripts
+1 Oct	16:10	16:40	coding		Added comments
